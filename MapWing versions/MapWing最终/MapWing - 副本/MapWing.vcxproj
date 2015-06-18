@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Release\MapWing.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Release\MapWing.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\MapWing.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Release\MapWing.exe</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Debug\MapWing.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Debug\MapWing.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\MapWing.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Debug\MapWing.exe</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AnnoSymbolDlg.cpp" />
+    <ClCompile Include="F:\VS2010\VC\atlmfc\src\mfc\APPMODUL.CPP" />
+    <ClCompile Include="AutoHideBar.cpp" />
+    <ClCompile Include="ChangeFormat.cpp" />
+    <ClCompile Include="CoolTabCtrl.cpp" />
+    <ClCompile Include="DockPageBar.cpp" />
+    <ClCompile Include="GeoAnno.cpp" />
+    <ClCompile Include="GeoLayer.cpp" />
+    <ClCompile Include="GeoLine.cpp" />
+    <ClCompile Include="GeoMap.cpp" />
+    <ClCompile Include="GeoObject.cpp" />
+    <ClCompile Include="GeoPoint.cpp" />
+    <ClCompile Include="GeoPolygon.cpp" />
+    <ClCompile Include="Grid.cpp" />
+    <ClCompile Include="HawkeyeDlg.cpp" />
+    <ClCompile Include="Index.cpp" />
+    <ClCompile Include="LayerChooseDlg.cpp" />
+    <ClCompile Include="LineSymbol.cpp" />
+    <ClCompile Include="LineSymbolDlg.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="MapTree.cpp" />
+    <ClCompile Include="MapWing.cpp" />
+    <ClCompile Include="MapWingDoc.cpp" />
+    <ClCompile Include="MapWingDockPageBar.cpp" />
+    <ClCompile Include="MapWingView.cpp" />
+    <ClCompile Include="PointSymbol.cpp" />
+    <ClCompile Include="PointSymbolDlg.cpp" />
+    <ClCompile Include="PolygonSymbol.cpp" />
+    <ClCompile Include="PolySymbolDlg.cpp" />
+    <ClCompile Include="sizecbar.cpp" />
+    <ClCompile Include="Splash.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="TrueColorToolBar.cpp" />
+    <ClCompile Include="ViewBitmap.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MapWing.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnnoSymbolDlg.h" />
+    <ClInclude Include="AutoHideBar.h" />
+    <ClInclude Include="ChangeFormat.h" />
+    <ClInclude Include="CoolTabCtrl.h" />
+    <ClInclude Include="DockPageBar.h" />
+    <ClInclude Include="GeoAnno.h" />
+    <ClInclude Include="GeoLayer.h" />
+    <ClInclude Include="GeoLine.h" />
+    <ClInclude Include="GeoMap.h" />
+    <ClInclude Include="GeoObject.h" />
+    <ClInclude Include="GeoPoint.h" />
+    <ClInclude Include="GeoPolygon.h" />
+    <ClInclude Include="Grid.h" />
+    <ClInclude Include="HawkeyeDlg.h" />
+    <ClInclude Include="Index.h" />
+    <ClInclude Include="LayerChooseDlg.h" />
+    <ClInclude Include="LineSymbol.h" />
+    <ClInclude Include="LineSymbolDlg.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="MapTree.h" />
+    <ClInclude Include="MapWing.h" />
+    <ClInclude Include="MapWingDoc.h" />
+    <ClInclude Include="MapWingDockPageBar.h" />
+    <ClInclude Include="MapWingView.h" />
+    <ClInclude Include="PointSymbol.h" />
+    <ClInclude Include="PointSymbolDlg.h" />
+    <ClInclude Include="PolygonSymbol.h" />
+    <ClInclude Include="PolySymbolDlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="sizecbar.h" />
+    <ClInclude Include="Splash.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="Tool.h" />
+    <ClInclude Include="TrueColorToolBar.h" />
+    <ClInclude Include="ViewBitmap.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\bitmap1.bmp" />
+    <CustomBuild Include="res\bitmap10.bmp" />
+    <CustomBuild Include="res\bitmap11.bmp" />
+    <CustomBuild Include="res\bitmap12.bmp" />
+    <CustomBuild Include="res\bitmap13.bmp" />
+    <CustomBuild Include="res\bitmap2.bmp" />
+    <CustomBuild Include="res\bitmap3.bmp" />
+    <CustomBuild Include="res\bitmap4.bmp" />
+    <CustomBuild Include="res\bitmap5.bmp" />
+    <CustomBuild Include="res\bitmap6.bmp" />
+    <CustomBuild Include="res\bitmap7.bmp" />
+    <CustomBuild Include="res\bitmap8.bmp" />
+    <CustomBuild Include="res\bitmap9.bmp" />
+    <CustomBuild Include="res\bmp00001.bmp" />
+    <CustomBuild Include="res\bmp00002.bmp" />
+    <CustomBuild Include="res\bmp00003.bmp" />
+    <CustomBuild Include="res\cur00001.cur" />
+    <CustomBuild Include="res\cur00002.cur" />
+    <CustomBuild Include="res\cursor1.cur" />
+    <CustomBuild Include="res\Donate.ico" />
+    <CustomBuild Include="res\Downloads-Folder-Icon.ico" />
+    <CustomBuild Include="res\Eject Blue Button.ico" />
+    <CustomBuild Include="res\Eye.ico" />
+    <CustomBuild Include="res\icon1.ico" />
+    <CustomBuild Include="res\icon5.ico" />
+    <CustomBuild Include="res\mainframe.ico" />
+    <CustomBuild Include="res\Map.ico" />
+    <CustomBuild Include="res\MapWing.ico" />
+    <CustomBuild Include="res\MapWing.rc2">
+      <FileType>RC</FileType>
+    </CustomBuild>
+    <CustomBuild Include="res\MapWingDoc.ico" />
+    <CustomBuild Include="res\pan1.cur" />
+    <CustomBuild Include="res\Smiley Blue.ico" />
+    <CustomBuild Include="res\Smiley.ico" />
+    <CustomBuild Include="res\splash.bmp" />
+    <CustomBuild Include="splash.bmp" />
+    <CustomBuild Include="res\Toolbar.bmp" />
+    <CustomBuild Include="res\toolbar1.bmp" />
+    <CustomBuild Include="res\toolbar1disable.bmp" />
+    <CustomBuild Include="res\toolbar1hot.bmp" />
+    <CustomBuild Include="res\toolbar2.bmp" />
+    <CustomBuild Include="res\toolbarcolor.bmp" />
+    <CustomBuild Include="res\toolbardisable.bmp" />
+    <CustomBuild Include="res\toolbarhot.bmp" />
+    <CustomBuild Include="res\Video-Folder-Icon.ico" />
+    <CustomBuild Include="res\放大缩小.cur" />
+    <CustomBuild Include="res\漫游1.cur" />
+    <CustomBuild Include="res\漫游2.cur" />
+    <CustomBuild Include="res\全屏显示.cur" />
+    <CustomBuild Include="res\指针.cur" />
+    <CustomBuild Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

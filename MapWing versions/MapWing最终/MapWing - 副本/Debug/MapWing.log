@@ -1,8 +1,156 @@
-﻿Build started 2015/6/21 9:50:55.
+﻿Build started 2015/6/21 19:13:15.
      1>Project "\\psf\Home\Desktop\SourceTree\实习程序\MapWing versions\MapWing最终\MapWing - 副本\MapWing.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\MapWing.pch" /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt LayerChooseDlg.cpp
-         LayerChooseDlg.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\MapWing.pch" /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt MapWingDoc.cpp
+         MapWingDoc.cpp
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(137): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(143): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(151): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(152): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(156): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(168): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(172): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(184): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(185): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(186): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(191): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(198): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(200): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(202): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(227): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(228): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(229): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(235): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(242): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(245): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(250): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(278): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(279): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(283): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(292): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(294): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(300): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(327): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(328): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(333): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(343): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(345): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(352): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(355): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(357): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(361): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(642): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(647): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(658): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(661): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(667): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(674): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(677): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(683): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(692): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(696): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(698): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(706): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(709): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(715): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(718): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(722): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(726): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(727): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(744): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(746): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(747): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(751): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(761): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(768): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(775): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(782): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(789): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(797): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(808): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(809): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(822): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(824): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(829): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(833): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(845): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(849): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(857): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapwing最终\mapwing - 副本\mapwingdoc.cpp(987): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\MapWing.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:".\Debug\MapWing.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\MapWing.lib" /MACHINE:X86 /SAFESEH .\Debug\MapWing.res
          .\Debug\AnnoSymbolDlg.obj
@@ -39,10 +187,8 @@
          .\Debug\TrueColorToolBar.obj
          .\Debug\ViewBitmap.obj
          MapWing.vcxproj -> \\psf\Home\Desktop\SourceTree\实习程序\MapWing versions\MapWing最终\MapWing - 副本\.\Debug\MapWing.exe
-       BscMake:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\Debug\MapWing.bsc" .\Debug\AnnoSymbolDlg.sbr .\Debug\AutoHideBar.sbr .\Debug\ChangeFormat.sbr .\Debug\CoolTabCtrl.sbr .\Debug\DockPageBar.sbr .\Debug\GeoAnno.sbr .\Debug\GeoLayer.sbr .\Debug\GeoLine.sbr .\Debug\GeoMap.sbr .\Debug\GeoObject.sbr .\Debug\GeoPoint.sbr .\Debug\GeoPolygon.sbr .\Debug\Grid.sbr .\Debug\HawkeyeDlg.sbr .\Debug\Index.sbr .\Debug\LayerChooseDlg.sbr .\Debug\LineSymbol.sbr .\Debug\LineSymbolDlg.sbr .\Debug\MainFrm.sbr .\Debug\MapTree.sbr .\Debug\MapWing.sbr .\Debug\MapWingDoc.sbr .\Debug\MapWingDockPageBar.sbr .\Debug\MapWingView.sbr .\Debug\PointSymbol.sbr .\Debug\PointSymbolDlg.sbr .\Debug\PolygonSymbol.sbr .\Debug\PolySymbolDlg.sbr .\Debug\sizecbar.sbr .\Debug\Splash.sbr .\Debug\StdAfx.sbr .\Debug\TrueColorToolBar.sbr .\Debug\ViewBitmap.sbr
      1>Done Building Project "\\psf\Home\Desktop\SourceTree\实习程序\MapWing versions\MapWing最终\MapWing - 副本\MapWing.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:05.25
+Time Elapsed 00:00:03.34

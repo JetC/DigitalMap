@@ -94,7 +94,7 @@ void CLayerChooseDlg::OnOK()
      default: break;
    }
 
-	
+	//调用父类的OK
 	CDialog::OnOK();
 }
 int CLayerChooseDlg::OnCreate(LPCREATESTRUCT lpCreateStruct) 

@@ -18,9 +18,6 @@
     <ClCompile Include="AnnoSymbolDlg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Program Files\Microsoft Visual Studio\VC98\MFC\SRC\APPMODUL.CPP">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="AutoHideBar.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

@@ -92,10 +92,7 @@ LINK32=link.exe
 
 SOURCE=.\AnnoSymbolDlg.cpp
 # End Source File
-# Begin Source File
 
-SOURCE="F:\VS2010\VC\atlmfc\src\mfc\APPMODUL.CPP"
-# End Source File
 # Begin Source File
 
 SOURCE=.\AutoHideBar.cpp

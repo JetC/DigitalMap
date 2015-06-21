@@ -2,7 +2,7 @@
 //
 
 #include "stdafx.h"
-#include "MapWing.h"
+#include "MapManager.h"
 #include "CoolTabCtrl.h"
 
 #ifdef _DEBUG

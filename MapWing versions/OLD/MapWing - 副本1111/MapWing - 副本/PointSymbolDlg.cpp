@@ -2,9 +2,9 @@
 //
 
 #include "stdafx.h"
-#include "MapWing.h"
+#include "MapManager.h"
 #include "PointSymbolDlg.h"
-#include "MapWingView.h"
+#include "MapManagerView.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -77,7 +77,7 @@ void CPointSymbolDlg::OnOK()
 	m_PointRadius=atoi(buffer);
 
 	CFrameWnd *pFrame = (CFrameWnd*)AfxGetApp()->m_pMainWnd;
-    CMapWingView *pView = (CMapWingView *) pFrame->GetActiveView();
+    CMapManagerView *pView = (CMapManagerView *) pFrame->GetActiveView();
 
     CClientDC dc(pView);
     pView->OnPrepareDC(&dc);

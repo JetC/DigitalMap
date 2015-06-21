@@ -2,9 +2,9 @@
 //
 
 #include "stdafx.h"
-#include "MapWing.h"
+#include "MapManager.h"
 #include "HawkeyeDlg.h"
-#include "MapWingView.h"
+#include "MapManagerView.h"
 #include "MainFrm.h"
 #include "GeoPoint.h"
 #include "GeoLine.h"
@@ -63,7 +63,7 @@ void CHawkeyeDlg::OnPaint()
 	dc.Rectangle(&rect);
 
 	dc.SelectObject(&pOldBrush);
-	CMapWingView * pView =(CMapWingView *)(((CMainFrame*)AfxGetMainWnd())->GetActiveView());
+	CMapManagerView * pView =(CMapManagerView *)(((CMainFrame*)AfxGetMainWnd())->GetActiveView());
 
 	
 	if(pView->m_IsLoadMap)
@@ -230,7 +230,7 @@ void CHawkeyeDlg::ChangeRect(CRect rect)
 	CRect SmallRect;
 	GetClientRect(&SmallRect);
 
-	CMapWingView * pView =(CMapWingView *)(((CMainFrame*)AfxGetMainWnd())->GetActiveView());
+	CMapManagerView * pView =(CMapManagerView *)(((CMainFrame*)AfxGetMainWnd())->GetActiveView());
 
 	m_curWinRect.left=(double)(rect.left-pView->m_rtMapRange.left)*(double)SmallRect.Width()/(double)(pView->m_rtMapRange.Width())+SmallRect.left-1;
     m_curWinRect.right=(double)(rect.right-pView->m_rtMapRange.left)*(double)SmallRect.Width()/(double)(pView->m_rtMapRange.Width())+SmallRect.left+1;
@@ -251,7 +251,7 @@ void CHawkeyeDlg::DrawRect()
    
  	GetClientRect(&SmallRect);
 
-	CMapWingView * pView =(CMapWingView *)(((CMainFrame*)AfxGetMainWnd())->GetActiveView());
+	CMapManagerView * pView =(CMapManagerView *)(((CMainFrame*)AfxGetMainWnd())->GetActiveView());
  	if(pView->m_IsLoadMap)
 	{
      
@@ -279,7 +279,7 @@ void CHawkeyeDlg::OnLButtonDown(UINT nFlags, CPoint point)
 	dc.Rectangle(m_PrevRect);
 	m_PrevRect.top=m_PrevRect.bottom=m_PrevRect.left=m_PrevRect.right=0;
 
-	CMapWingView * pView =(CMapWingView *)(((CMainFrame*)AfxGetMainWnd())->GetActiveView());
+	CMapManagerView * pView =(CMapManagerView *)(((CMainFrame*)AfxGetMainWnd())->GetActiveView());
 	if(pView->m_IsLoadMap)
 	{
 	CRect SmallRect;

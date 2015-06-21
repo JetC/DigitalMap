@@ -3,7 +3,7 @@
 //////////////////////////////////////////////////////////////////////
 
 #include "stdafx.h"
-#include "MapWing.h"
+#include "MapManager.h"
 #include "PointSymbol.h"
 #include "math.h"
 #define PI 3.1415926

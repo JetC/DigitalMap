@@ -6,7 +6,7 @@
 #include "resource.h"  // e.g. resource.h
 
 #include "Splash.h"  // e.g. splash.h
-#include "MapWing.h"
+#include "MapManager.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -70,12 +70,12 @@ void CSplashWnd::Guage(int iStep)
 	case 5:{
         pdc->Rectangle(&CRect(0,h-20,w,h)); 
         pdc->FillRect(&CRect(0,h-20,step*5,h),&CBrush(RGB(128,255,255)));
-        pdc->TextOut(42,h-19,"正在启动MapWing系统............");
+        pdc->TextOut(42,h-19,"正在启动MapManager系统............");
 		   }break;
 	case 6:{
         pdc->Rectangle(&CRect(0,h-20,w,h)); 
         pdc->FillRect(&CRect(0,h-20,step*6+1.2,h),&CBrush(RGB(255,255,128)));
-        pdc->TextOut(42,h-19,"公告：MapWing系统由地信四班第一小组荣誉出品!");
+        pdc->TextOut(42,h-19,"公告：MapManager系统由地信四班第一小组荣誉出品!");
 		   }break;
 	case 7:{
 			}break;

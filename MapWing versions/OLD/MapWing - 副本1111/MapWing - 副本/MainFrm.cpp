@@ -2,7 +2,7 @@
 //
 
 #include "stdafx.h"
-#include "MapWing.h"
+#include "MapManager.h"
 
 #include "Splash.h"
 
@@ -110,7 +110,7 @@ int CMainFrame::OnCreate(LPCREATESTRUCT lpCreateStruct)
 	SetTimer(1,1000,NULL);//设置定时器
 	
 	m_bIns=true;
-	CString str="欢迎使用MapWing系统！";
+	CString str="欢迎使用MapManager系统！";
 	CString str2="";
 	CClientDC dc(this);
 	CSize sz=dc.GetTextExtent(str);

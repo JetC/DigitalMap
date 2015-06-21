@@ -3,7 +3,7 @@
 //////////////////////////////////////////////////////////////////////
 
 #include "stdafx.h"
-#include "MapWing.h"
+#include "MapManager.h"
 #include "GeoLayer.h"
 #include "GeoPoint.h"
 #include "GeoLine.h"

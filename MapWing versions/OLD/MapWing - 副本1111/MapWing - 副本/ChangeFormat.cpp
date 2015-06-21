@@ -2,7 +2,7 @@
 //
 
 #include "stdafx.h"
-#include "MapWing.h"
+#include "MapManager.h"
 #include "ChangeFormat.h"
 
 #ifdef _DEBUG
@@ -68,8 +68,8 @@ void CChangeFormat::OnGoal()
 		return;
 	}
 	// TODO: Add your control notification handler code here
-	CFileDialog dlg(FALSE,"*.wing",NULL,OFN_HIDEREADONLY|OFN_ALLOWMULTISELECT|OFN_OVERWRITEPROMPT,
-		"数据文件(*.wing)|*.wing|任意文件(*.*)|*.*||",NULL);
+	CFileDialog dlg(FALSE,"*.Manager",NULL,OFN_HIDEREADONLY|OFN_ALLOWMULTISELECT|OFN_OVERWRITEPROMPT,
+		"数据文件(*.Manager)|*.Manager|任意文件(*.*)|*.*||",NULL);
 	if (dlg.DoModal()==IDOK)
 	{
 		m_strOutPath=dlg.GetPathName();

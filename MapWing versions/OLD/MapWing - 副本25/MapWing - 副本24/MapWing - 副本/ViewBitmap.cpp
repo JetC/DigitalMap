@@ -3,8 +3,8 @@
 //////////////////////////////////////////////////////////////////////
 
 #include "stdafx.h"
-#include "MapWing.h"
-#include "MapWingView.h"
+#include "MapManager.h"
+#include "MapManagerView.h"
 #include "ViewBitmap.h"
 #include "MainFrm.h"
 

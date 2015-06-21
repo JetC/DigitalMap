@@ -3,10 +3,10 @@
 //////////////////////////////////////////////////////////////////////
 
 #include "stdafx.h"
-#include "MapWing.h"
+#include "MapManager.h"
 #include "LineSymbol.h"
 #include"MainFrm.h"
-#include"MapWingView.h"
+#include"MapManagerView.h"
 #include"math.h"
 
 #ifdef _DEBUG
@@ -274,7 +274,7 @@ void CLineSymbol::DrawRailwayLine(CDC *pDC)
 
 
 	CFrameWnd *pFrame = (CFrameWnd*)AfxGetApp()->m_pMainWnd;
-    CMapWingView *pView = (CMapWingView *) pFrame->GetActiveView();
+    CMapManagerView *pView = (CMapManagerView *) pFrame->GetActiveView();
 
 	CClientDC dc(pView);
     pView->OnPrepareDC(&dc);

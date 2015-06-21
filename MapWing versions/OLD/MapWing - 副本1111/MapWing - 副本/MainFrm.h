@@ -16,7 +16,7 @@
 #include "AutoHideBar.h"
 #include "CoolTabCtrl.h"
 #include "TrueColorToolBar.h"
-#include "MapWingDockPageBar.h"
+#include "MapManagerDockPageBar.h"
 
 class CMainFrame : public  CAutoHideFrame
 {
@@ -37,8 +37,8 @@ public:
 	CStatusBar		m_wndStatusBar;
 	CCoolTabCtrl	m_TabCtrl;  //”•—€«–ªª
 
-	CMapWingDockPageBar	m_wndMyBar1;//Õº≤„øÿ÷∆
-	CMapWingDockPageBar	m_wndMyBar2;//”•—€ ”Õº
+	CMapManagerDockPageBar	m_wndMyBar1;//Õº≤„øÿ÷∆
+	CMapManagerDockPageBar	m_wndMyBar2;//”•—€ ”Õº
 // Operations
 public:
 

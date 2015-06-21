@@ -3,10 +3,10 @@
 //////////////////////////////////////////////////////////////////////
 
 #include "stdafx.h"
-#include "MapWing.h"
+#include "MapManager.h"
 #include "GeoPoint.h"
 #include "PointSymbol.h"
-#include "MapWingView.h"
+#include "MapManagerView.h"
 #include "MainFrm.h"
 #include "math.h"
 

@@ -1,6 +1,6 @@
 //{{NO_DEPENDENCIES}}
 // Microsoft Developer Studio generated include file.
-// Used by MapWing.rc
+// Used by MapManager.rc
 //
 #define IDD_ABOUTBOX                    100
 #define IDS_OPENFILE_REMIND             101

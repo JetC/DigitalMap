@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include "tool_distance.h"
-#include "MapWingView.h"
-#include "MapWingDoc.h"
+#include "MapManagerView.h"
+#include "MapManagerDoc.h"
 #include "mainfrm.h"
 #include "math.h"
 
@@ -25,7 +25,7 @@ void Distance::OnLButtonDown(UINT nFlags, CPoint point) {
 void Distance::OnMouseMove(UINT nFlags, CPoint point) {
 	if (isMouseCaptured) {
 		//SetCursor(LoadCursor(NULL, IDC_CROSS);
-		CMapWingView* pView = GetView();
+		CMapManagerView* pView = GetView();
 		CDC* pDC = pView->GetDC();
 		CPen* old_pen = pDC->SelectObject(&pen);
 		pDC->SetROP2(R2_XORPEN);

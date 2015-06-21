@@ -2,9 +2,9 @@
 //
 
 #include "stdafx.h"
-#include "MapWing.h"
+#include "MapManager.h"
 #include "LayerChooseDlg.h"
-#include "MapWingView.h"
+#include "MapManagerView.h"
 #include "MainFrm.h"
 #include "LineSymbol.h"
 #include "PointSymbol.h"
@@ -114,7 +114,7 @@ int CLayerChooseDlg::OnCreate(LPCREATESTRUCT lpCreateStruct)
    
 	m_Combo_Show.Create(WS_CHILD|WS_VISIBLE|CBS_DROPDOWNLIST|CBS_SORT|WS_BORDER|WS_VSCROLL,TempRect,this,IDC_COMBO1);
 	CFrameWnd *pFrame = (CFrameWnd*)AfxGetApp()->m_pMainWnd;
-    CMapWingView *pView = (CMapWingView *) pFrame->GetActiveView();
+    CMapManagerView *pView = (CMapManagerView *) pFrame->GetActiveView();
 	CString str;
   
 	if(pView->m_IsLoadMap)
@@ -141,7 +141,7 @@ void CLayerChooseDlg::OnSelchangeCombo1()
    
 
 	CFrameWnd *pFrame = (CFrameWnd*)AfxGetApp()->m_pMainWnd;
-    CMapWingView *pView = (CMapWingView *) pFrame->GetActiveView();
+    CMapManagerView *pView = (CMapManagerView *) pFrame->GetActiveView();
 
     
     m_LayerType=pView->GetDocument()->map1->m_parLayers.GetAt(m_CurSelect)->GetLayerType();

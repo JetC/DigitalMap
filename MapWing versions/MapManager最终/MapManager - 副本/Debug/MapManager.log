@@ -1,0 +1,227 @@
+﻿Build started 2015/6/21 20:23:49.
+     1>Project "\\psf\Home\Desktop\SourceTree\实习程序\MapWing versions\MapManager最终\MapManager - 副本\MapManager.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\MapManager.pch" /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt AnnoSymbolDlg.cpp AutoHideBar.cpp ChangeFormat.cpp CoolTabCtrl.cpp DockPageBar.cpp GeoAnno.cpp GeoLayer.cpp GeoLine.cpp GeoMap.cpp GeoObject.cpp GeoPoint.cpp GeoPolygon.cpp Grid.cpp HawkeyeDlg.cpp Index.cpp LayerChooseDlg.cpp LineSymbol.cpp LineSymbolDlg.cpp MainFrm.cpp MapManager.cpp MapManagerDoc.cpp MapManagerDockPageBar.cpp MapManagerView.cpp MapTree.cpp PointSymbol.cpp PointSymbolDlg.cpp PolySymbolDlg.cpp PolygonSymbol.cpp Splash.cpp TrueColorToolBar.cpp ViewBitmap.cpp sizecbar.cpp
+         MapManagerDoc.cpp
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(137): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(143): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(151): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(152): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(156): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(168): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(172): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(184): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(185): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(186): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(191): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(198): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(200): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(202): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(227): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(228): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(229): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(235): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(242): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(245): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(250): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(278): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(279): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(283): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(292): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(294): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(300): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(327): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(328): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(333): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(343): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(345): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(352): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(355): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(357): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(361): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(642): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(647): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(658): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(661): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(667): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(674): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(677): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(683): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(692): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(696): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(698): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(706): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(709): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(715): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(718): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(722): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(726): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(727): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(744): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(746): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(747): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(751): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(761): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(768): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(775): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(782): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(789): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(797): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(808): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(809): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(822): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(824): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(829): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(833): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(845): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(849): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(857): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>\\psf\home\desktop\sourcetree\实习程序\mapwing versions\mapmanager最终\mapmanager - 副本\mapmanagerdoc.cpp(987): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         sizecbar.cpp
+         ViewBitmap.cpp
+         TrueColorToolBar.cpp
+         Splash.cpp
+         PolygonSymbol.cpp
+         PolySymbolDlg.cpp
+         PointSymbolDlg.cpp
+         PointSymbol.cpp
+         MapTree.cpp
+         MapManagerView.cpp
+         MapManagerDockPageBar.cpp
+         MapManager.cpp
+         MainFrm.cpp
+         LineSymbolDlg.cpp
+         LineSymbol.cpp
+         LayerChooseDlg.cpp
+         Index.cpp
+         HawkeyeDlg.cpp
+         Grid.cpp
+         GeoPolygon.cpp
+         GeoPoint.cpp
+         GeoObject.cpp
+         GeoMap.cpp
+         GeoLine.cpp
+         GeoLayer.cpp
+         GeoAnno.cpp
+         DockPageBar.cpp
+         CoolTabCtrl.cpp
+         ChangeFormat.cpp
+         AutoHideBar.cpp
+         AnnoSymbolDlg.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\MapManager.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:".\Debug\MapManager.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\MapManager.lib" /MACHINE:X86 /SAFESEH .\Debug\MapManager.res
+         .\Debug\AnnoSymbolDlg.obj
+         .\Debug\AutoHideBar.obj
+         .\Debug\ChangeFormat.obj
+         .\Debug\CoolTabCtrl.obj
+         .\Debug\DockPageBar.obj
+         .\Debug\GeoAnno.obj
+         .\Debug\GeoLayer.obj
+         .\Debug\GeoLine.obj
+         .\Debug\GeoMap.obj
+         .\Debug\GeoObject.obj
+         .\Debug\GeoPoint.obj
+         .\Debug\GeoPolygon.obj
+         .\Debug\Grid.obj
+         .\Debug\HawkeyeDlg.obj
+         .\Debug\Index.obj
+         .\Debug\LayerChooseDlg.obj
+         .\Debug\LineSymbol.obj
+         .\Debug\LineSymbolDlg.obj
+         .\Debug\MainFrm.obj
+         .\Debug\MapTree.obj
+         .\Debug\MapManager.obj
+         .\Debug\MapManagerDoc.obj
+         .\Debug\MapManagerDockPageBar.obj
+         .\Debug\MapManagerView.obj
+         .\Debug\PointSymbol.obj
+         .\Debug\PointSymbolDlg.obj
+         .\Debug\PolygonSymbol.obj
+         .\Debug\PolySymbolDlg.obj
+         .\Debug\sizecbar.obj
+         .\Debug\Splash.obj
+         .\Debug\StdAfx.obj
+         .\Debug\TrueColorToolBar.obj
+         .\Debug\ViewBitmap.obj
+         MapManager.vcxproj -> \\psf\Home\Desktop\SourceTree\实习程序\MapWing versions\MapManager最终\MapManager - 副本\.\Debug\MapManager.exe
+     1>Done Building Project "\\psf\Home\Desktop\SourceTree\实习程序\MapWing versions\MapManager最终\MapManager - 副本\MapManager.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.85

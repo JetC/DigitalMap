@@ -694,22 +694,22 @@ void CSizingControlBar::OnTrackUpdateSize(CPoint& point)
         }
     else
     {
-        int nGrowingBar = nThis;
+        int nGroManagerBar = nThis;
         BOOL bBefore = m_htEdge == HTTOP || m_htEdge == HTLEFT;
         if (bBefore && nDelta > 0)
-            nGrowingBar--;
+            nGroManagerBar--;
         if (!bBefore && nDelta < 0)
-            nGrowingBar++;
-        if (nGrowingBar != nThis)
+            nGroManagerBar++;
+        if (nGroManagerBar != nThis)
             bBefore = !bBefore;
 
-        // nGrowing is growing
+        // nGroManager is groManager
         nDelta = abs(nDelta);
-        CSizingControlBar* pBar = arrSCBars[nGrowingBar];
+        CSizingControlBar* pBar = arrSCBars[nGroManagerBar];
         (bHorz ? pBar->m_szHorz.cx : pBar->m_szVert.cy) += nDelta;
 
         // the others are shrinking
-        int nFirst = bBefore ? nGrowingBar - 1 : nGrowingBar + 1;
+        int nFirst = bBefore ? nGroManagerBar - 1 : nGroManagerBar + 1;
         int nLimit = bBefore ? -1 : arrSCBars.GetSize();
 
         for (int i = nFirst; nDelta != 0 && i != nLimit; i += (bBefore ? -1 : 1))

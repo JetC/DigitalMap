@@ -2,9 +2,9 @@
 //
 
 #include "stdafx.h"
-#include "MapWing.h"
+#include "MapManager.h"
 #include "PolySymbolDlg.h"
-#include "MapWingView.h"
+#include "MapManagerView.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -70,7 +70,7 @@ void CPolySymbolDlg::OnOK()
 	int B2=atoi(buffer);
 
 	CFrameWnd *pFrame = (CFrameWnd*)AfxGetApp()->m_pMainWnd;
-    CMapWingView *pView = (CMapWingView *) pFrame->GetActiveView();
+    CMapManagerView *pView = (CMapManagerView *) pFrame->GetActiveView();
     pView->GetDocument()->map1->m_parLayers.GetAt(m_CurSeleLayer)
 		    ->SetPolygonParameter(RGB(R1,G1,B1),RGB(R2,G2,B2));
 	

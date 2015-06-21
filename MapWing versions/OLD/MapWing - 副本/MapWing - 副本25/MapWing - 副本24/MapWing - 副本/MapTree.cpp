@@ -2,9 +2,9 @@
 //
 
 #include "stdafx.h"
-#include "MapWing.h"
+#include "MapManager.h"
 #include "MapTree.h"
-#include "MapWingView.h"
+#include "MapManagerView.h"
 #include "MainFrm.h"
 #include "Grid.h"
 
@@ -53,7 +53,7 @@ void CMapTree::OnLButtonDown(UINT nFlags, CPoint point)
 		else
           SetItemImage( hItem,0,false );
 
-        CMapWingView * pView = (CMapWingView *)(((CMainFrame*)AfxGetMainWnd())->GetActiveView());
+        CMapManagerView * pView = (CMapManagerView *)(((CMainFrame*)AfxGetMainWnd())->GetActiveView());
 		for(int i=0;i<pView->GetDocument()->map1->m_parLayers.GetSize();i++)
 		{ 
 			int k;	
@@ -129,7 +129,7 @@ HTREEITEM hItem =HitTest(point, &m_uFlags);
 	//menu.GetSubMenu(0)->SetMenuItemBitmaps(1,MF_BYPOSITION,&bitmap1,&bitmap2);
     m_CurLayer=-1;
 
-    CMapWingView * pView = (CMapWingView *)(((CMainFrame*)AfxGetMainWnd())->GetActiveView());
+    CMapManagerView * pView = (CMapManagerView *)(((CMainFrame*)AfxGetMainWnd())->GetActiveView());
 	if(pView->m_IsLoadMap)
 	{
 		for(int i=0;i<pView->GetDocument()->map1->m_parLayers.GetSize();i++)

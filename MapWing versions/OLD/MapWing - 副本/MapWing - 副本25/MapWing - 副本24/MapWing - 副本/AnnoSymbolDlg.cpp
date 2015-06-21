@@ -2,9 +2,9 @@
 //
 
 #include "stdafx.h"
-#include "MapWing.h"
+#include "MapManager.h"
 #include "AnnoSymbolDlg.h"
-#include "MapWingView.h"
+#include "MapManagerView.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -77,7 +77,7 @@ void CAnnoSymbolDlg::OnOK()
 	}
 
 	CFrameWnd *pFrame = (CFrameWnd*)AfxGetApp()->m_pMainWnd;
-    CMapWingView *pView = (CMapWingView *) pFrame->GetActiveView();
+    CMapManagerView *pView = (CMapManagerView *) pFrame->GetActiveView();
 	pView->GetDocument()->map1->m_parLayers.GetAt(m_CurSeleLayer)
  		           ->SetTextParameter(RGB(R,G,B),m_TextFont);
     pView->Invalidate();

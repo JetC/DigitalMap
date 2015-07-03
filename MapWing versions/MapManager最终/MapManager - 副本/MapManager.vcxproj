@@ -265,6 +265,9 @@
     <CustomBuild Include="res\指针.cur" />
     <CustomBuild Include="ReadMe.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

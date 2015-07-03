@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="INIT_afxData" Collapsed="true">
+    <Position X="11.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DockPageBar.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAboutDlg" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapManager.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAnnoSymbolDlg" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgQAJgAAAABACABAAggAAAAAAAAAAA=</HashCode>
+      <FileName>AnnoSymbolDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAHFloatWnd" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAgAAIAkCAgAAEIYEAAIBAAAABAAAggACAAAEEAA=</HashCode>
+      <FileName>AutoHideBar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHidePageItem" Collapsed="true">
+    <Position X="3.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQgAAEAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>AutoHideBar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHideItem" Collapsed="true">
+    <Position X="18.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAEAAAAAAAAgAAIAAAAAAQCBAEgQAAIgQIBAAAAAg=</HashCode>
+      <FileName>AutoHideBar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAutoHideBar" Collapsed="true">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACQAAAAIAAAAAAIAkAAAAAAABAAgEEJAiAAAAIABAA=</HashCode>
+      <FileName>AutoHideBar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAutoHideFrame" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAIAAAgAIAAAAAAAAAAAAAAAAAAEAAAAAAAAE=</HashCode>
+      <FileName>AutoHideBar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChangeFormat" Collapsed="true">
+    <Position X="17" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAEgAAAAAAAAABAAAAADAAAAAAAAAAAIMAAAAQA=</HashCode>
+      <FileName>ChangeFormat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCoolTabCtrl" Collapsed="true">
+    <Position X="18.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AECDACQAIEEgCAAIAIAAACwAgCEAgEIgBEAggAAQAAg=</HashCode>
+      <FileName>CoolTabCtrl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMyButton" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAIAAAAAAAAQAAAAAAEAAAAAAAAgAAAAIAIA=</HashCode>
+      <FileName>DockPageBar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCloseButton" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>DockPageBar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CStudButton" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAACAAAIAAA=</HashCode>
+      <FileName>DockPageBar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPageItem" Collapsed="true">
+    <Position X="3.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAACAAAgAAAAAAAAAQAAAEAAAAAAQAAAAQAAA=</HashCode>
+      <FileName>DockPageBar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDockPageBar" Collapsed="true">
+    <Position X="5.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAGDAmAAIokACAIIEAQAQAABCDBAgAMAABAgAAAQUAg=</HashCode>
+      <FileName>DockPageBar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDockPageBarContext" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAQAAMAIAAAIQwEAAAAAAAQAQAAAAAAAAwAAQAA=</HashCode>
+      <FileName>DockPageBar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGeoAnno" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAABEAKAACgAACAYhAAgAAAABAAgQECAAIAEAEgo=</HashCode>
+      <FileName>GeoAnno.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGeoLayer" Collapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQBAAOAJAIBCAAAAAIAgFAJAAoCAAYIIBBAoIACCA=</HashCode>
+      <FileName>GeoLayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGeoLine" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAIAQCgAAAIAAAAgAAAAAAAAEABAAAEQAIAA=</HashCode>
+      <FileName>GeoLine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGeoMap" Collapsed="true">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAADACAQAQAAAIEAAAAAAAEAAAAAAAAAAAAAABgQA=</HashCode>
+      <FileName>GeoMap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGeoObject" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAABABAAIAoAAAgAABAgAAAAAAAQAAAAAgAAIIAA=</HashCode>
+      <FileName>GeoObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGeoPoint" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCAAIABAAoAACgAAIAAAAAgCEAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>GeoPoint.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGeoPolygon" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABBAIAQCgAAAAEAAAgAABAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>GeoPolygon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGrid" Collapsed="true">
+    <Position X="15.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAiAIAAAAACAAAgAAAAAAAQAgAIEAAAAAmAA=</HashCode>
+      <FileName>Grid.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHawkeyeDlg" Collapsed="true">
+    <Position X="17" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAMAAABAABAAEAAAQAAAAEADAAAAAAAQAAA=</HashCode>
+      <FileName>HawkeyeDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CIndex" Collapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAQAAAAEAAQAAAAAMAAAAAAAACQAA=</HashCode>
+      <FileName>Index.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLayerChooseDlg" Collapsed="true">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAABgAAAQBACAgAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>LayerChooseDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLineSymbol" Collapsed="true">
+    <Position X="13.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAoACAAAQAAgAAAgAIAIAAAUgAAAAAAAUAAAA=</HashCode>
+      <FileName>LineSymbol.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLineSymbolDlg" Collapsed="true">
+    <Position X="15.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAEAAAACAAQAJAAAAARQAIBAAAAIBAAAEAAIAA=</HashCode>
+      <FileName>LineSymbolDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMainFrame" Collapsed="true">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IEABKBIABAChAIAMLMAAmAEggCAARgIEAIgBAAhYABA=</HashCode>
+      <FileName>MainFrm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMapTree" Collapsed="true">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAABAAgAAAAAAAAAAAAAAAAAAAAAAAQCgAAAAAAQAAA=</HashCode>
+      <FileName>MapTree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMapManagerApp" Collapsed="true">
+    <Position X="17" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAgAAAAAgAAAAAAAAAQAAAABAAAAAAA=</HashCode>
+      <FileName>MapManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMapManagerDoc" Collapsed="true">
+    <Position X="18.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IBhBQAAQAAAAIC0AiAAAgQAAASAgACAgAEAAAgCAAAA=</HashCode>
+      <FileName>MapManagerDoc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMapManagerDockPageBar" Collapsed="true">
+    <Position X="5.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAACAEgCIAAAAAAAAAAAA=</HashCode>
+      <FileName>MapManagerDockPageBar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMapManagerView" Collapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAEIQCAFCABbATQBQxVpUkBQOCACAAAgMgAJQCQA=</HashCode>
+      <FileName>MapManagerView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPointSymbol" Collapsed="true">
+    <Position X="13.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCAAAAACIAAAAAAAAAAIAAAAEAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>PointSymbol.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPointSymbolDlg" Collapsed="true">
+    <Position X="15.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCAAAAAEAIACAAAQAJAAAAABEAABAAAEIBAAAAAAAAA=</HashCode>
+      <FileName>PointSymbolDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPolygonSymbol" Collapsed="true">
+    <Position X="17" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAIAIAAAAAAAAAEAAAAAABAEAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>PolygonSymbol.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPolySymbolDlg" Collapsed="true">
+    <Position X="18.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAEAAQAAQBBAAAAARAAAAAAAAIAAgAAgACAA=</HashCode>
+      <FileName>PolySymbolDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSCBDockBar" Collapsed="true">
+    <Position X="10" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>sizecbar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSizingControlBar" Collapsed="true">
+    <Position X="15.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>igGAQyAAYCEAJAKAKAeMAQJFBPAABEUCARsIEAAQpAg=</HashCode>
+      <FileName>sizecbar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSCBDockContext" Collapsed="true">
+    <Position X="11.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>sizecbar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSCBMiniDockFrameWnd" Collapsed="true">
+    <Position X="13.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAEAAAAAAAAEAAAAAAAAEEAAAAAAAAACAAA=</HashCode>
+      <FileName>sizecbar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSplashWnd" Collapsed="true">
+    <Position X="17" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAiAAAAAAAAAAEUAxIAAAAAAACAAAEAAAAAQBAABAAA=</HashCode>
+      <FileName>Splash.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTrueColorToolBar" Collapsed="true">
+    <Position X="18.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAACCAAQAAAAAABABAAAAAAAQAAAAAQAAA=</HashCode>
+      <FileName>TrueColorToolBar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CViewBitmap" Collapsed="true">
+    <Position X="10" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAACAABAAAQAAAAAAAIAACAIBAAAAgAAAA=</HashCode>
+      <FileName>ViewBitmap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="AUX_DATA" Collapsed="true">
+    <Position X="10" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAEAAAAAAAAAAAAAAAAAAAAAAAAJAAAAIAAAAAAAAAg=</HashCode>
+      <FileName>DockPageBar.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="STEPFUN" Collapsed="true">
+    <Position X="11.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapManager.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CSCBArray" Collapsed="true">
+    <Position X="10" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>sizecbar.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

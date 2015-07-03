@@ -942,12 +942,11 @@ void CMapManagerDoc::OnBmpsave()
 	// TODO: Add your command handler code here
 	CFileDialog dlg(false,"*.bmp",NULL,OFN_HIDEREADONLY|OFN_ALLOWMULTISELECT|OFN_OVERWRITEPROMPT,
 		"数据文件(*.bmp)|*.bmp|任意文件(*.*)|*.*||",NULL);
-	//if (dlg.DoModal()==IDOK)
-	//{
+	if (dlg.DoModal()==IDOK)
+	{
 		m_strBmpPath=dlg.GetPathName();
 		dlg.DestroyWindow();
-
-	//}	
+	}	
 	if (m_strBmpPath=="")
 	{
 		return;

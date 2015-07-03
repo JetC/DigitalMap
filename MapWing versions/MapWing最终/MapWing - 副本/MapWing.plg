@@ -1,0 +1,182 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MapWing - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/MapWing.res" /d "_DEBUG" /d "_AFXDLL" "\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\MapWing.rc"" 
+Creating temporary file "C:\Users\SUNPEI~1\AppData\Local\Temp\RSP38B3.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/MapWing.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\AnnoSymbolDlg.cpp"
+"\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\AutoHideBar.cpp"
+"\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\ChangeFormat.cpp"
+"\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\CoolTabCtrl.cpp"
+"\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\DockPageBar.cpp"
+"\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\GeoAnno.cpp"
+"\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\GeoLayer.cpp"
+"\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\GeoLine.cpp"
+"\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\GeoMap.cpp"
+"\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\GeoObject.cpp"
+"\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\GeoPoint.cpp"
+"\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\GeoPolygon.cpp"
+"\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\Grid.cpp"
+"\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\HawkeyeDlg.cpp"
+"\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\Index.cpp"
+"\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\LayerChooseDlg.cpp"
+"\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\LineSymbol.cpp"
+"\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\LineSymbolDlg.cpp"
+"\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\MainFrm.cpp"
+"\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\MapTree.cpp"
+"\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\MapWing.cpp"
+"\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\MapWingDoc.cpp"
+"\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\MapWingDockPageBar.cpp"
+"\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\MapWingView.cpp"
+"\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\PointSymbol.cpp"
+"\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\PointSymbolDlg.cpp"
+"\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\PolygonSymbol.cpp"
+"\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\PolySymbolDlg.cpp"
+"\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\sizecbar.cpp"
+"\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\Splash.cpp"
+"\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\TrueColorToolBar.cpp"
+"\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\ViewBitmap.cpp"
+]
+Creating command line "cl.exe @C:\Users\SUNPEI~1\AppData\Local\Temp\RSP38B3.tmp" 
+Creating temporary file "C:\Users\SUNPEI~1\AppData\Local\Temp\RSP38C4.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/MapWing.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\SUNPEI~1\AppData\Local\Temp\RSP38C4.tmp" 
+Creating temporary file "C:\Users\SUNPEI~1\AppData\Local\Temp\RSP38C5.tmp" with contents
+[
+SkinMagicLibMT6.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/MapWing.pdb" /debug /machine:I386 /out:"Debug/MapWing.exe" /pdbtype:sept 
+".\Debug\AnnoSymbolDlg.obj"
+".\Debug\AutoHideBar.obj"
+".\Debug\ChangeFormat.obj"
+".\Debug\CoolTabCtrl.obj"
+".\Debug\DockPageBar.obj"
+".\Debug\GeoAnno.obj"
+".\Debug\GeoLayer.obj"
+".\Debug\GeoLine.obj"
+".\Debug\GeoMap.obj"
+".\Debug\GeoObject.obj"
+".\Debug\GeoPoint.obj"
+".\Debug\GeoPolygon.obj"
+".\Debug\Grid.obj"
+".\Debug\HawkeyeDlg.obj"
+".\Debug\Index.obj"
+".\Debug\LayerChooseDlg.obj"
+".\Debug\LineSymbol.obj"
+".\Debug\LineSymbolDlg.obj"
+".\Debug\MainFrm.obj"
+".\Debug\MapTree.obj"
+".\Debug\MapWing.obj"
+".\Debug\MapWingDoc.obj"
+".\Debug\MapWingDockPageBar.obj"
+".\Debug\MapWingView.obj"
+".\Debug\PointSymbol.obj"
+".\Debug\PointSymbolDlg.obj"
+".\Debug\PolygonSymbol.obj"
+".\Debug\PolySymbolDlg.obj"
+".\Debug\sizecbar.obj"
+".\Debug\Splash.obj"
+".\Debug\StdAfx.obj"
+".\Debug\TrueColorToolBar.obj"
+".\Debug\ViewBitmap.obj"
+".\Debug\MapWing.res"
+]
+Creating command line "link.exe @C:\Users\SUNPEI~1\AppData\Local\Temp\RSP38C5.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AnnoSymbolDlg.cpp
+AutoHideBar.cpp
+ChangeFormat.cpp
+CoolTabCtrl.cpp
+DockPageBar.cpp
+GeoAnno.cpp
+GeoLayer.cpp
+\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\GeoLayer.cpp(60) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\GeoLayer.cpp(60) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+GeoLine.cpp
+GeoMap.cpp
+GeoObject.cpp
+GeoPoint.cpp
+GeoPolygon.cpp
+Grid.cpp
+HawkeyeDlg.cpp
+Index.cpp
+LayerChooseDlg.cpp
+LineSymbol.cpp
+LineSymbolDlg.cpp
+MainFrm.cpp
+MapTree.cpp
+Generating Code...
+\\psf\Home\Desktop\SourceTree\陈斌程序\陈斌程序\陈斌程序\MapWing versions\MapWing最终\MapWing - 副本\Grid.cpp(114) : warning C4715: 'CGrid::JudgeSelect' : not all control paths return a value
+Compiling...
+MapWing.cpp
+MapWingDoc.cpp
+MapWingDockPageBar.cpp
+MapWingView.cpp
+PointSymbol.cpp
+PointSymbolDlg.cpp
+PolygonSymbol.cpp
+PolySymbolDlg.cpp
+sizecbar.cpp
+Splash.cpp
+TrueColorToolBar.cpp
+ViewBitmap.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\Users\SUNPEI~1\AppData\Local\Temp\RSP5A86.tmp" with contents
+[
+/nologo /o"Debug/MapWing.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\AnnoSymbolDlg.sbr"
+".\Debug\AutoHideBar.sbr"
+".\Debug\ChangeFormat.sbr"
+".\Debug\CoolTabCtrl.sbr"
+".\Debug\DockPageBar.sbr"
+".\Debug\GeoAnno.sbr"
+".\Debug\GeoLayer.sbr"
+".\Debug\GeoLine.sbr"
+".\Debug\GeoMap.sbr"
+".\Debug\GeoObject.sbr"
+".\Debug\GeoPoint.sbr"
+".\Debug\GeoPolygon.sbr"
+".\Debug\Grid.sbr"
+".\Debug\HawkeyeDlg.sbr"
+".\Debug\Index.sbr"
+".\Debug\LayerChooseDlg.sbr"
+".\Debug\LineSymbol.sbr"
+".\Debug\LineSymbolDlg.sbr"
+".\Debug\MainFrm.sbr"
+".\Debug\MapTree.sbr"
+".\Debug\MapWing.sbr"
+".\Debug\MapWingDoc.sbr"
+".\Debug\MapWingDockPageBar.sbr"
+".\Debug\MapWingView.sbr"
+".\Debug\PointSymbol.sbr"
+".\Debug\PointSymbolDlg.sbr"
+".\Debug\PolygonSymbol.sbr"
+".\Debug\PolySymbolDlg.sbr"
+".\Debug\sizecbar.sbr"
+".\Debug\Splash.sbr"
+".\Debug\TrueColorToolBar.sbr"
+".\Debug\ViewBitmap.sbr"]
+Creating command line "bscmake.exe @C:\Users\SUNPEI~1\AppData\Local\Temp\RSP5A86.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+MapWing.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

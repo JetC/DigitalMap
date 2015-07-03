@@ -1,0 +1,143 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MapManager - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/MapManager.res" /d "_DEBUG" /d "_AFXDLL" "\\psf\Home\Desktop\SourceTree\实习程序\MapManager\MapManager.rc"" 
+Creating temporary file "C:\Users\SUNPEI~1\AppData\Local\Temp\RSP9FEB.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/MapManager.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"\\psf\Home\Desktop\SourceTree\实习程序\MapManager\AnnoSymbolDlg.cpp"
+"\\psf\Home\Desktop\SourceTree\实习程序\MapManager\AutoHideBar.cpp"
+"\\psf\Home\Desktop\SourceTree\实习程序\MapManager\ChangeFormat.cpp"
+"\\psf\Home\Desktop\SourceTree\实习程序\MapManager\CoolTabCtrl.cpp"
+"\\psf\Home\Desktop\SourceTree\实习程序\MapManager\DockPageBar.cpp"
+"\\psf\Home\Desktop\SourceTree\实习程序\MapManager\GeoAnno.cpp"
+"\\psf\Home\Desktop\SourceTree\实习程序\MapManager\GeoLayer.cpp"
+"\\psf\Home\Desktop\SourceTree\实习程序\MapManager\GeoLine.cpp"
+"\\psf\Home\Desktop\SourceTree\实习程序\MapManager\GeoMap.cpp"
+"\\psf\Home\Desktop\SourceTree\实习程序\MapManager\GeoObject.cpp"
+"\\psf\Home\Desktop\SourceTree\实习程序\MapManager\GeoPoint.cpp"
+"\\psf\Home\Desktop\SourceTree\实习程序\MapManager\GeoPolygon.cpp"
+"\\psf\Home\Desktop\SourceTree\实习程序\MapManager\Grid.cpp"
+"\\psf\Home\Desktop\SourceTree\实习程序\MapManager\HawkeyeDlg.cpp"
+"\\psf\Home\Desktop\SourceTree\实习程序\MapManager\Index.cpp"
+"\\psf\Home\Desktop\SourceTree\实习程序\MapManager\LayerChooseDlg.cpp"
+"\\psf\Home\Desktop\SourceTree\实习程序\MapManager\LineSymbol.cpp"
+"\\psf\Home\Desktop\SourceTree\实习程序\MapManager\LineSymbolDlg.cpp"
+"\\psf\Home\Desktop\SourceTree\实习程序\MapManager\MainFrm.cpp"
+"\\psf\Home\Desktop\SourceTree\实习程序\MapManager\MapTree.cpp"
+"\\psf\Home\Desktop\SourceTree\实习程序\MapManager\MapManager.cpp"
+"\\psf\Home\Desktop\SourceTree\实习程序\MapManager\MapManagerDoc.cpp"
+"\\psf\Home\Desktop\SourceTree\实习程序\MapManager\MapManagerDockPageBar.cpp"
+"\\psf\Home\Desktop\SourceTree\实习程序\MapManager\MapManagerView.cpp"
+"\\psf\Home\Desktop\SourceTree\实习程序\MapManager\PointSymbol.cpp"
+"\\psf\Home\Desktop\SourceTree\实习程序\MapManager\PointSymbolDlg.cpp"
+"\\psf\Home\Desktop\SourceTree\实习程序\MapManager\PolygonSymbol.cpp"
+"\\psf\Home\Desktop\SourceTree\实习程序\MapManager\PolySymbolDlg.cpp"
+"\\psf\Home\Desktop\SourceTree\实习程序\MapManager\sizecbar.cpp"
+"\\psf\Home\Desktop\SourceTree\实习程序\MapManager\Splash.cpp"
+"\\psf\Home\Desktop\SourceTree\实习程序\MapManager\TrueColorToolBar.cpp"
+"\\psf\Home\Desktop\SourceTree\实习程序\MapManager\ViewBitmap.cpp"
+]
+Creating command line "cl.exe @C:\Users\SUNPEI~1\AppData\Local\Temp\RSP9FEB.tmp" 
+Creating temporary file "C:\Users\SUNPEI~1\AppData\Local\Temp\RSP9FEC.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/MapManager.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"\\psf\Home\Desktop\SourceTree\实习程序\MapManager\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\SUNPEI~1\AppData\Local\Temp\RSP9FEC.tmp" 
+Creating temporary file "C:\Users\SUNPEI~1\AppData\Local\Temp\RSP9FED.tmp" with contents
+[
+SkinMagicLibMT6.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/MapManager.pdb" /debug /machine:I386 /out:"Debug/MapManager.exe" /pdbtype:sept 
+".\Debug\AnnoSymbolDlg.obj"
+".\Debug\AutoHideBar.obj"
+".\Debug\ChangeFormat.obj"
+".\Debug\CoolTabCtrl.obj"
+".\Debug\DockPageBar.obj"
+".\Debug\GeoAnno.obj"
+".\Debug\GeoLayer.obj"
+".\Debug\GeoLine.obj"
+".\Debug\GeoMap.obj"
+".\Debug\GeoObject.obj"
+".\Debug\GeoPoint.obj"
+".\Debug\GeoPolygon.obj"
+".\Debug\Grid.obj"
+".\Debug\HawkeyeDlg.obj"
+".\Debug\Index.obj"
+".\Debug\LayerChooseDlg.obj"
+".\Debug\LineSymbol.obj"
+".\Debug\LineSymbolDlg.obj"
+".\Debug\MainFrm.obj"
+".\Debug\MapTree.obj"
+".\Debug\MapManager.obj"
+".\Debug\MapManagerDoc.obj"
+".\Debug\MapManagerDockPageBar.obj"
+".\Debug\MapManagerView.obj"
+".\Debug\PointSymbol.obj"
+".\Debug\PointSymbolDlg.obj"
+".\Debug\PolygonSymbol.obj"
+".\Debug\PolySymbolDlg.obj"
+".\Debug\sizecbar.obj"
+".\Debug\Splash.obj"
+".\Debug\StdAfx.obj"
+".\Debug\TrueColorToolBar.obj"
+".\Debug\ViewBitmap.obj"
+".\Debug\MapManager.res"
+]
+Creating command line "link.exe @C:\Users\SUNPEI~1\AppData\Local\Temp\RSP9FED.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AnnoSymbolDlg.cpp
+AutoHideBar.cpp
+ChangeFormat.cpp
+CoolTabCtrl.cpp
+DockPageBar.cpp
+GeoAnno.cpp
+GeoLayer.cpp
+\\psf\Home\Desktop\SourceTree\实习程序\MapManager\GeoLayer.cpp(60) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+\\psf\Home\Desktop\SourceTree\实习程序\MapManager\GeoLayer.cpp(60) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+GeoLine.cpp
+GeoMap.cpp
+GeoObject.cpp
+GeoPoint.cpp
+GeoPolygon.cpp
+Grid.cpp
+HawkeyeDlg.cpp
+Index.cpp
+LayerChooseDlg.cpp
+LineSymbol.cpp
+LineSymbolDlg.cpp
+MainFrm.cpp
+MapTree.cpp
+Generating Code...
+\\psf\Home\Desktop\SourceTree\实习程序\MapManager\Grid.cpp(114) : warning C4715: 'CGrid::JudgeSelect' : not all control paths return a value
+Compiling...
+MapManager.cpp
+MapManagerDoc.cpp
+MapManagerDockPageBar.cpp
+MapManagerView.cpp
+PointSymbol.cpp
+PointSymbolDlg.cpp
+PolygonSymbol.cpp
+PolySymbolDlg.cpp
+sizecbar.cpp
+Splash.cpp
+TrueColorToolBar.cpp
+ViewBitmap.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+MapManager.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

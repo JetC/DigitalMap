@@ -305,9 +305,9 @@ void CMapManagerView::OnLButtonDown(UINT nFlags, CPoint point)
 		//量算距离
 		if(m_CurOper==ID_MEASUREDISTANCE)
 		{
-			m_PointOrign=mousepoint;//用来记录源点与当前点的前一点
+			m_PointOrign=mousepoint;
 			m_PointOld=mousepoint;
-			m_bCountDis=1;//设置当前是距离量算
+			m_bCountDis=1;
 			CountArray.Add(mousepoint);
 			
 			CPen pen(PS_SOLID,10,RGB(255,0,0));
@@ -322,13 +322,13 @@ void CMapManagerView::OnLButtonDown(UINT nFlags, CPoint point)
 			CDC *pDC1=GetDC();
 			int r=3;
 			pOldPen=pDC1->SelectObject(&pen1);
-			pDC1->Rectangle(point.x-r,point.y-r,point.x+r,point.y+r);//用矩形表示节点
+			pDC1->Rectangle(point.x-r,point.y-r,point.x+r,point.y+r);
 		}
 		//量算面积
 		if(m_CurOper == ID_MEASUREAREA)
 		{
 			m_bCountArea=1;
-			m_PointOrign=mousepoint;//用来记录源点与当前点的前一点
+			m_PointOrign=mousepoint;
 			m_PointOld=mousepoint;
 			CountArray.Add(mousepoint);
 			CPen pen(PS_DASHDOT,1,RGB(0,0,255));

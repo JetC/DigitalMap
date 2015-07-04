@@ -7,7 +7,7 @@
 </h3>
 <h3>Command Lines</h3>
 Creating command line "rc.exe /l 0x804 /fo"Debug/MapManager.res" /d "_DEBUG" /d "_AFXDLL" "\\psf\Home\Desktop\SourceTree\实习程序\MapManager\MapManager.rc"" 
-Creating temporary file "C:\Users\SUNPEI~1\AppData\Local\Temp\RSP642D.tmp" with contents
+Creating temporary file "C:\Users\SUNPEI~1\AppData\Local\Temp\RSPA53B.tmp" with contents
 [
 /nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/MapManager.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
 "\\psf\Home\Desktop\SourceTree\实习程序\MapManager\AnnoSymbolDlg.cpp"
@@ -43,14 +43,14 @@ Creating temporary file "C:\Users\SUNPEI~1\AppData\Local\Temp\RSP642D.tmp" with 
 "\\psf\Home\Desktop\SourceTree\实习程序\MapManager\TrueColorToolBar.cpp"
 "\\psf\Home\Desktop\SourceTree\实习程序\MapManager\ViewBitmap.cpp"
 ]
-Creating command line "cl.exe @C:\Users\SUNPEI~1\AppData\Local\Temp\RSP642D.tmp" 
-Creating temporary file "C:\Users\SUNPEI~1\AppData\Local\Temp\RSP642E.tmp" with contents
+Creating command line "cl.exe @C:\Users\SUNPEI~1\AppData\Local\Temp\RSPA53B.tmp" 
+Creating temporary file "C:\Users\SUNPEI~1\AppData\Local\Temp\RSPA54C.tmp" with contents
 [
 /nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/MapManager.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
 "\\psf\Home\Desktop\SourceTree\实习程序\MapManager\StdAfx.cpp"
 ]
-Creating command line "cl.exe @C:\Users\SUNPEI~1\AppData\Local\Temp\RSP642E.tmp" 
-Creating temporary file "C:\Users\SUNPEI~1\AppData\Local\Temp\RSP642F.tmp" with contents
+Creating command line "cl.exe @C:\Users\SUNPEI~1\AppData\Local\Temp\RSPA54C.tmp" 
+Creating temporary file "C:\Users\SUNPEI~1\AppData\Local\Temp\RSPA54D.tmp" with contents
 [
 SkinMagicLibMT6.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/MapManager.pdb" /debug /machine:I386 /out:"Debug/MapManager.exe" /pdbtype:sept 
 ".\Debug\AnnoSymbolDlg.obj"
@@ -88,7 +88,7 @@ SkinMagicLibMT6.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/MapM
 ".\Debug\ViewBitmap.obj"
 ".\Debug\MapManager.res"
 ]
-Creating command line "link.exe @C:\Users\SUNPEI~1\AppData\Local\Temp\RSP642F.tmp"
+Creating command line "link.exe @C:\Users\SUNPEI~1\AppData\Local\Temp\RSPA54D.tmp"
 <h3>Output Window</h3>
 Compiling resources...
 Compiling...
@@ -133,7 +133,9 @@ TrueColorToolBar.cpp
 ViewBitmap.cpp
 Generating Code...
 Linking...
-Creating temporary file "C:\Users\SUNPEI~1\AppData\Local\Temp\RSP8209.tmp" with contents
+LINK : fatal error LNK1105: cannot close file "Debug/MapManager.exe"
+执行 link.exe 时出错.
+Creating temporary file "C:\Users\SUNPEI~1\AppData\Local\Temp\RSPC3B3.tmp" with contents
 [
 /nologo /o"Debug/MapManager.bsc" 
 ".\Debug\StdAfx.sbr"
@@ -169,14 +171,14 @@ Creating temporary file "C:\Users\SUNPEI~1\AppData\Local\Temp\RSP8209.tmp" with 
 ".\Debug\Splash.sbr"
 ".\Debug\TrueColorToolBar.sbr"
 ".\Debug\ViewBitmap.sbr"]
-Creating command line "bscmake.exe @C:\Users\SUNPEI~1\AppData\Local\Temp\RSP8209.tmp"
+Creating command line "bscmake.exe @C:\Users\SUNPEI~1\AppData\Local\Temp\RSPC3B3.tmp"
 Creating browse info file...
 <h3>Output Window</h3>
 
 
 
 <h3>Results</h3>
-MapManager.exe - 0 error(s), 0 warning(s)
+MapManager.exe - 1 error(s), 0 warning(s)
 </pre>
 </body>
 </html>

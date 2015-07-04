@@ -112,7 +112,7 @@ int CMainFrame::OnCreate(LPCREATESTRUCT lpCreateStruct)
 	SetTimer(1,1000,NULL);//设置定时器
 	
 	m_bIns=true;
-	CString str="欢迎使用MapManager系统！";
+	CString str=" ";
 	CString str2="";
 	CClientDC dc(this);
 	CSize sz=dc.GetTextExtent(str);

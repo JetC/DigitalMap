@@ -19,6 +19,7 @@
 #include "ViewBitmap.h"
 
 #include "math.h"
+#include <dos.h>
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -960,10 +961,17 @@ void CMapManagerDoc::OnBmpsave()
 }
 void CMapManagerDoc::BmpSave(CString FileName)
 {
+	
 	CViewBitmap bmp;
 	CMapManagerView *pView=(CMapManagerView*)(((CMainFrame*)AfxGetMainWnd())->GetActiveView());
 	CRect rect;
 	pView->GetWindowRect(&rect);
+	DWORD dwStart = GetTickCount(); 
+	DWORD dwEnd  = dwStart; 
+	do 
+	{ 
+	dwEnd = GetTickCount()-dwStart; 
+	}while(dwEnd <1*1000); 
 	bmp.Capture(rect);
 	bmp.SaveBitmapEx(FileName);
 }

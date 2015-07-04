@@ -29,63 +29,7 @@ void GetStatusCode(int iStepCode)
 }
 
 void CSplashWnd::Guage(int iStep) 
-{// 自己绘制进度条  
-	CDC *pdc = c_pSplashWnd->GetDC(); 
-	int a= pdc->SetBkMode(TRANSPARENT);  
-
-	CFont font;  
-	font.CreateFont(14,6,0,0,FW_BOLD,0,0,NULL,NULL,NULL,NULL,NULL,NULL,"黑体");  
-
-	CBitmap bitmap;
-	bitmap.LoadBitmap(IDB_SPLASH);
-	BITMAP bmp;
-	bitmap.GetBitmap(&bmp);
-	int w = bmp.bmWidth;
-	int h = bmp.bmHeight;
-	int step= w/6;   // 注意：进度条宽/步进次数  
-
-	CFont* oldfont = pdc->SelectObject(&font);
-	switch(iStep)  
-	{
-	case 1: {
-        pdc->Rectangle(&CRect(0,h-20,w,h)); 
-        pdc->FillRect(&CRect(0,h-20,step*1,h),&CBrush(RGB(128,255,255)));
-        pdc->TextOut(42,h-19,"初始化设备环境............");
-			}break;
-	case 2:{
-        pdc->Rectangle(&CRect(0,h-20,w,h)); 
-        pdc->FillRect(&CRect(0,h-20,step*2,h),&CBrush(RGB(128,255,255)));
-        pdc->TextOut(42,h-19,"系统运行预设置............");
-		   }break;
-	case 3:{
-        pdc->Rectangle(&CRect(0,h-20,w,h)); 
-        pdc->FillRect(&CRect(0,h-20,step*3,h),&CBrush(RGB(128,255,255)));
-		pdc->TextOut(42,h-19,"系统预设置成功............");
-		   }break;
-	case 4:{
-        pdc->Rectangle(&CRect(0,h-20,w,h)); 
-        pdc->FillRect(&CRect(0,h-20,step*4,h),&CBrush(RGB(128,255,255)));
-        pdc->TextOut(42,h-19,"完成文件系统初始化............");
-		   }break;
-	case 5:{
-        pdc->Rectangle(&CRect(0,h-20,w,h)); 
-        pdc->FillRect(&CRect(0,h-20,step*5,h),&CBrush(RGB(128,255,255)));
-        pdc->TextOut(42,h-19,"正在启动MapManager系统............");
-		   }break;
-	case 6:{
-        pdc->Rectangle(&CRect(0,h-20,w,h)); 
-        pdc->FillRect(&CRect(0,h-20,step*6.1,h),&CBrush(RGB(255,255,128)));
-        pdc->TextOut(42,h-19,"公告：MapManager系统由地信四班第一小组荣誉出品!");
-		   }break;
-	case 7:{
-			}break;
-
-	default:;  
-	}
-	pdc->SelectObject(oldfont);
-	font.DeleteObject();
-	pdc->SetBkMode(a);
-	c_pSplashWnd->ReleaseDC(pdc); 
+{
 }
 
 CSplashWnd::CSplashWnd()

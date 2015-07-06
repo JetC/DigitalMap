@@ -257,10 +257,10 @@ FONT 9, "宋体"
 BEGIN
     ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,21
     LTEXT           "MapManager 1.0 ",IDC_STATIC,46,13,49,8,SS_NOPREFIX
-    LTEXT           "版权所有 (C) 2012",IDC_STATIC,102,13,81,8
+    LTEXT           "版权所有 (C) 2015",IDC_STATIC,102,13,81,8
     DEFPUSHBUTTON   "确定",IDOK,197,17,50,14,WS_GROUP
     LTEXT           "指导老师：艾自兴",IDC_STATIC,49,43,65,8
-    LTEXT           "开发小组：陈斌 谭沉艳 钱小敏 胡星璇",IDC_STATIC,47,67,
+    LTEXT           "人员：罗文心 张盼盼 王梓煊 孙培峰",IDC_STATIC,47,67,
                     141,8
 END
 

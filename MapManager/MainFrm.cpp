@@ -368,7 +368,7 @@ void CMainFrame::InitToolBar2()
 
 void CMainFrame::OnHelp() 
 {
-	ShellExecute(NULL,"open",".\\help.chm",NULL,NULL,SW_SHOWMAXIMIZED);
+	ShellExecute(NULL,"open",".\\help.docx",NULL,NULL,SW_SHOWMAXIMIZED);
 }
 
 

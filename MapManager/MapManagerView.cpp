@@ -826,6 +826,7 @@ void CMapManagerView::OnLButtonDblClk(UINT nFlags, CPoint point)
 			TempResult+=DisXY;
 		}
 		
+		TempResult = TempResult/1000;
 		CString ss;
 		TempResult=labs(TempResult);
 		ss.Format("%f",TempResult);
@@ -884,6 +885,7 @@ void CMapManagerView::OnLButtonDblClk(UINT nFlags, CPoint point)
 			}
 		}
 		
+		Result = Result/30000;
 		CString pp;
 		Result=labs(Result);
 		pp.Format("%f",Result);

@@ -112,7 +112,7 @@ int CMainFrame::OnCreate(LPCREATESTRUCT lpCreateStruct)
 	SetTimer(1,1000,NULL);//设置定时器
 	
 	m_bIns=true;
-	CString str="欢迎使用MapManager系统！";
+	CString str="";
 	CString str2="";
 	CClientDC dc(this);
 	CSize sz=dc.GetTextExtent(str);
@@ -121,7 +121,7 @@ int CMainFrame::OnCreate(LPCREATESTRUCT lpCreateStruct)
 	SetTimer(3,200,NULL);
 	CRect rect;
 	m_wndStatusBar.GetItemRect(3,&rect);//获得窗格位置
-	m_str.Create(str,WS_CHILD|WS_VISIBLE,rect,&m_wndStatusBar,80);//添加一个CStatic静态控件
+	m_str.Create(str,WS_CHILD,rect,&m_wndStatusBar,80);//添加一个CStatic静态控件
 	
 ////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////分割子窗体
